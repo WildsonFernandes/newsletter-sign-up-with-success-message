@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
+    
     font-family: sans-serif;
 }
 
 
-}
+
 
  body{
     width: 100%;
@@ -46,7 +46,7 @@ nav{
 
 
 li{
-    list-style-image: url(newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg);
+    list-style-image: url(assets/images/icon-list.svg);
     align-items: center;
     text-align: justify;
     margin-left: 50px;
@@ -117,12 +117,13 @@ h2{
 button{
     border: white;
     color: white;
-    background-color:  hsl(4, 100%, 67%);
+    background: linear-gradient(90deg, hsl(4, 100%, 67%),hsl(46, 68%, 61%) )  ;
     padding: 10px;
     border-radius: 08px;
     margin-left: 5%;
     cursor: pointer;
     width: 350px;
+    height: 50px;
 
 }
 .content .header-block{
@@ -139,13 +140,14 @@ text{
     justify-content: center;
 }
 
-.caixa{
+#cabelo{
     cursor: pointer;
     margin-left: 20px;
     display: flex;
     padding: 15px;
     border-radius: 10px;
     width: 350px;
+    border: 2pt solid rgb(51, 65, 12);
 
 }
 
@@ -156,6 +158,4 @@ text{
     margin-bottom: 10px;
 }
 
-.imagem{
-  
-}
+
