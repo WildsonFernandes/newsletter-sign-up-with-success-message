@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+}
+
+ body{
+    width: 100%;
+    text-align: justify;
+
+}
+header {
+    width: 100%;
+    height: 800px ;
+    background-color: hsl(235, 18%, 26%)
+}
+
+.content{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+nav{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    
+    
+   
+    
+}
+ 
+
+
+li{
+    list-style-image: url(newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg);
+    align-items: center;
+    text-align: justify;
+    margin-left: 50px;
+    justify-content: center;
+    padding: 5px;
+    
+   
+    
+}
+p {
+    align-items: center;
+    text-align: justify;
+    padding: 3px;
+    display: flex;
+    margin-left: 15px;
+    text-align: justify;
+}
+h2{
+    font-size: 53px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+.header-block {
+    max-width: 800px;
+    min-width: 300px;
+    margin-top: 30px;
+    margin-right: 100px;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    text-align: justify
+}
+h2{
+    display: flex;
+    text-align: justify;
+}
+
+.header-block img{
+    width: 35%;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+    display: flex;
+    border-radius: 0%;
+    
+    
+}
+
+   
+
+.header-block .text h2 {
+    color: hsl(236, 35%, 19%);
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+button{
+    border: white;
+    color: white;
+    background-color:  hsl(4, 100%, 67%);
+    padding: 10px;
+    border-radius: 08px;
+    margin-left: 5%;
+    cursor: pointer;
+    width: 350px;
+
+}
+.content .header-block{
+    text-align: justify;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+text{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.caixa{
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+.email{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+.imagem{
+  
+}
